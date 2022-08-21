@@ -1,0 +1,39 @@
+:root {
+    --h1: 6vw;
+    --h3: 2.5vw;
+    --h4: 2vw;
+    --p: 1.5vw;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #363232e0;
+}
+
+.top-section {
+    width: 100vw;
+    height: 40vh;
+}
+
+.top-section h1 {
+    color: tomato;
+}
+
+p {
+    font-size: var(--p);
+}
+
+h1 {
+    font-size: var(--h1);
+}
+
+h3 {
+    font-size: var(--h3);
+}
+
+.calculation-area {
+    max-width: 300px;
+    border: 1px solid red;
+}
