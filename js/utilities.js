@@ -16,3 +16,14 @@ function selectButtonHandler(event) {
         alert("Your selected player is almost five")
     }
 }
+
+function getInputValue(inputId) {
+    const inputValueString = document.getElementById(inputId).value;
+    const inputValue = parseFloat(inputValueString);
+    return inputValue
+}
+function getElementValue(elementId) {
+    const elementValueString = document.getElementById(elementId).innerText;
+    const elementValue = parseFloat(elementValueString);
+    return elementValue;
+}
