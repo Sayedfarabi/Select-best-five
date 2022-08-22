@@ -1,3 +1,5 @@
+// Player Expense Calculation Event Handler
+
 document.getElementById("player-expenses").addEventListener("click", function () {
     const orderListArea = document.getElementById("order-list-area");
     const orderListCount = orderListArea.children.length;
@@ -12,6 +14,8 @@ document.getElementById("player-expenses").addEventListener("click", function ()
     }
 })
 
+// Total Expense Calculation Event Handler
+
 document.getElementById("total-expenses").addEventListener("click", function () {
     const managerInputValue = getInputValue("manager-cost");
     const coachInputValue = getInputValue("coach-cost");
@@ -23,5 +27,6 @@ document.getElementById("total-expenses").addEventListener("click", function () 
         return
     } else {
         alert(" Please provide input value");
+        return
     }
 })
