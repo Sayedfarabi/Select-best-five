@@ -11,7 +11,7 @@ function selectButtonHandler(event) {
         orderListArea.appendChild(newList);
         event.target.setAttribute("disabled", true)
     } else {
-        alert("Your selected player is almost five")
+        alert("You cannot select more than five players")
     }
 }
 
